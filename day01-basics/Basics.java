@@ -91,8 +91,10 @@ class Main{
     int c = ++a - ++b -10 + 5;
     b = ++a + ++c;
     
+    
     System.out.println(a);
     System.out.println(b);
     System.out.println(c);
+    System.out.print(d);
     }
 }
